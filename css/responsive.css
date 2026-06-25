@@ -1,0 +1,38 @@
+@media (max-width: 1024px) {
+  .main-content {
+    margin-top: 1.5rem;
+  }
+
+  .hero__content h1 {
+    max-width: 12ch;
+  }
+}
+
+@media (max-width: 820px) {
+  .site-header__inner {
+    gap: 0.75rem;
+  }
+
+  .brand__name small {
+    letter-spacing: 0.12em;
+  }
+
+  .movie-details__panel {
+    gap: 0.85rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer__inner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .hero__actions .button {
+    width: 100%;
+  }
+
+  .page-hero__meta {
+    gap: 0.45rem;
+  }
+}
