@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CineSeeker movie details page." />
+    <title>CineSeeker | Movie Details</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script type="module" src="js/movie.js" defer></script>
+  </head>
+  <body data-page="movie">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header" data-site-header></header>
+    <main id="main-content" class="main-content">
+      <section class="page-hero">
+        <div class="page-hero__meta">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="favorites.html">Favorites</a>
+          <a class="nav-link" href="about.html">About</a>
+        </div>
+        <h1 class="page-title" id="movie-title">Loading movie...</h1>
+        <p class="muted-text" id="movie-tagline"></p>
+      </section>
+      <section class="panel movie-details-section" id="movie-details"></section>
+      <section class="panel" id="recommendations"></section>
+    </main>
+    <button class="button scroll-top" type="button" data-scroll-top aria-label="Back to top">↑ Top</button>
+  </body>
+</html>

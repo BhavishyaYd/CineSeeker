@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Your CineSeeker favorites collection." />
+    <title>CineSeeker | Favorites</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script type="module" src="js/favorites.js" defer></script>
+  </head>
+  <body data-page="favorites">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header" data-site-header></header>
+    <main id="main-content" class="main-content">
+      <section class="page-hero">
+        <p class="eyebrow">Favorites</p>
+        <h1 class="page-title">Your saved movie list</h1>
+        <p class="muted-text">Movies stored locally for quick access across sessions.</p>
+      </section>
+      <section class="panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Library</p>
+            <h2>Saved movies</h2>
+          </div>
+          <button class="button button--ghost" type="button" data-clear-favorites>Clear all favorites</button>
+        </div>
+        <div id="favorites-status"></div>
+        <div class="movie-grid" id="favorites-grid"></div>
+      </section>
+      <section class="panel" id="recently-viewed"></section>
+    </main>
+    <button class="button scroll-top" type="button" data-scroll-top aria-label="Back to top">↑ Top</button>
+  </body>
+</html>

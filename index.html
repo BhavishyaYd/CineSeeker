@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CineSeeker is a modern movie recommendation website powered by TMDB." />
+    <title>CineSeeker | Discover Movies</title>
+    <link rel="icon" href="assets/images/poster-fallback.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script type="module" src="js/main.js" defer></script>
+  </head>
+  <body data-page="home">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header" data-site-header></header>
+    <main id="main-content" class="main-content">
+      <section class="hero" id="hero" aria-label="Featured movie"></section>
+      <section class="panel" aria-labelledby="discover-heading" id="discover">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Discover</p>
+            <h2 id="discover-heading">Explore the latest movie waves</h2>
+          </div>
+          <div class="inline-actions">
+            <button class="button button--secondary" type="button" data-copy-home-url>Copy Movie URL</button>
+            <button class="button button--ghost" type="button" data-share-home>Share Movie Link</button>
+          </div>
+        </div>
+        <div class="controls-bar" data-search-controls>
+          <label class="search-box" aria-label="Search movies">
+            <span>⌕</span>
+            <input type="search" placeholder="Search movies while typing..." data-search-input />
+            <button type="button" data-clear-search aria-label="Clear search">✕</button>
+          </label>
+          <label class="select-box" aria-label="Filter by genre">
+            <select data-genre-filter></select>
+          </label>
+          <label class="select-box" aria-label="Sort movies">
+            <select data-sort-filter></select>
+          </label>
+          <button class="button button--secondary" type="button" data-random-movie>Random Movie</button>
+        </div>
+        <div class="genre-filter-row" data-genre-chips></div>
+        <div class="tab-row" data-home-tabs>
+          <button class="tab-chip is-active" type="button" data-home-feed="trending">Trending</button>
+          <button class="tab-chip" type="button" data-home-feed="popular">Popular</button>
+          <button class="tab-chip" type="button" data-home-feed="top_rated">Top Rated</button>
+          <button class="tab-chip" type="button" data-home-feed="upcoming">Upcoming</button>
+        </div>
+        <div id="home-feed-status"></div>
+        <div class="movie-row" id="home-feed"></div>
+        <div class="pagination" id="home-feed-pagination"></div>
+      </section>
+      <section id="movie-of-the-day" class="panel" aria-labelledby="movie-day-heading"></section>
+      <section id="recently-viewed" class="panel" aria-labelledby="recent-heading"></section>
+    </main>
+    <footer class="footer">
+      <div class="page-shell footer__inner">
+        <p>CineSeeker. Built with TMDB data, HTML, CSS, and vanilla JavaScript.</p>
+        <p>Follow accessible, responsive movie discovery on any device.</p>
+      </div>
+    </footer>
+    <button class="button scroll-top" type="button" data-scroll-top aria-label="Back to top">↑ Top</button>
+  </body>
+</html>
