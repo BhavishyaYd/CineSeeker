@@ -1,0 +1,15 @@
+<svg width="800" height="1200" viewBox="0 0 800 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="1200" rx="48" fill="#111827"/>
+  <rect x="48" y="48" width="704" height="1104" rx="32" fill="url(#paint0_linear)" stroke="rgba(255,255,255,0.08)" stroke-width="2"/>
+  <circle cx="400" cy="430" r="150" fill="#1E293B"/>
+  <path d="M320 510L380 420L430 470L475 425L545 510H320Z" fill="#3B82F6" fill-opacity="0.9"/>
+  <circle cx="355" cy="395" r="34" fill="#FACC15"/>
+  <text x="400" y="700" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="54" font-weight="700" text-anchor="middle">CineSeeker</text>
+  <text x="400" y="765" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="28" font-weight="400" text-anchor="middle">No poster available</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="400" y1="48" x2="400" y2="1152" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+</svg>

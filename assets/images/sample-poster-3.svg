@@ -1,0 +1,16 @@
+<svg width="800" height="1200" viewBox="0 0 800 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="1200" rx="56" fill="#020617"/>
+  <rect x="52" y="52" width="696" height="1096" rx="40" fill="url(#g3)" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+  <path d="M182 700C250 556 318 476 400 476C482 476 550 556 618 700H182Z" fill="#0EA5E9" fill-opacity="0.9"/>
+  <path d="M256 700C308 618 352 574 400 574C448 574 492 618 544 700H256Z" fill="#FACC15"/>
+  <circle cx="400" cy="394" r="132" fill="#22C55E" fill-opacity="0.78"/>
+  <rect x="336" y="328" width="128" height="128" rx="28" fill="#111827" fill-opacity="0.82"/>
+  <text x="400" y="920" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="64" font-weight="700" text-anchor="middle">CineSeeker</text>
+  <text x="400" y="982" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="30" font-weight="400" text-anchor="middle">Neon Harbor</text>
+  <defs>
+    <linearGradient id="g3" x1="400" y1="52" x2="400" y2="1148" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#155E75"/>
+    </linearGradient>
+  </defs>
+</svg>

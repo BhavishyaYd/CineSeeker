@@ -1,0 +1,16 @@
+<svg width="800" height="1200" viewBox="0 0 800 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="1200" rx="56" fill="#111827"/>
+  <rect x="52" y="52" width="696" height="1096" rx="40" fill="url(#g2)" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+  <ellipse cx="400" cy="360" rx="182" ry="126" fill="#8B5CF6" fill-opacity="0.88"/>
+  <circle cx="340" cy="332" r="40" fill="#FACC15"/>
+  <circle cx="470" cy="315" r="24" fill="#FFFFFF" fill-opacity="0.9"/>
+  <path d="M258 742C314 650 364 612 400 612C436 612 486 650 542 742H258Z" fill="#E2E8F0" fill-opacity="0.9"/>
+  <text x="400" y="920" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="64" font-weight="700" text-anchor="middle">CineSeeker</text>
+  <text x="400" y="982" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="30" font-weight="400" text-anchor="middle">Echoes of Tomorrow</text>
+  <defs>
+    <linearGradient id="g2" x1="400" y1="52" x2="400" y2="1148" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#312E81"/>
+    </linearGradient>
+  </defs>
+</svg>

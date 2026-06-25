@@ -1,0 +1,15 @@
+<svg width="800" height="1200" viewBox="0 0 800 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="1200" rx="56" fill="#111827"/>
+  <rect x="52" y="52" width="696" height="1096" rx="40" fill="url(#g6)" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+  <path d="M240 340H560V736C560 818 497 884 400 884C303 884 240 818 240 736V340Z" fill="#22C55E" fill-opacity="0.82"/>
+  <circle cx="400" cy="564" r="132" fill="#0F172A" fill-opacity="0.95"/>
+  <circle cx="400" cy="564" r="74" fill="#FACC15"/>
+  <text x="400" y="920" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="64" font-weight="700" text-anchor="middle">CineSeeker</text>
+  <text x="400" y="982" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="30" font-weight="400" text-anchor="middle">Laugh Track</text>
+  <defs>
+    <linearGradient id="g6" x1="400" y1="52" x2="400" y2="1148" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#14532D"/>
+    </linearGradient>
+  </defs>
+</svg>
